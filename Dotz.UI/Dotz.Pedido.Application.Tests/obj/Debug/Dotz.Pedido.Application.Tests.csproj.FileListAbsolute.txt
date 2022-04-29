@@ -1,0 +1,13 @@
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Dotz.Pedido.Application.Tests.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Dotz.Pedido.Application.Tests.pdb
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\obj\Debug\Dotz.Pedido.Application.Tests.csproj.CoreCompileInputs.cache
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\obj\Debug\Dotz.Pedido.Application.Tests.csproj.CopyComplete
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\obj\Debug\Dotz.Pedido.Application.Tests.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Pedido.Application.Tests\obj\Debug\Dotz.Pedido.Application.Tests.pdb

@@ -1,0 +1,9 @@
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\bin\Debug\netcoreapp3.1\Dotz.Tests.deps.json
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\bin\Debug\netcoreapp3.1\Dotz.Tests.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\bin\Debug\netcoreapp3.1\Dotz.Tests.pdb
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\obj\Debug\netcoreapp3.1\Dotz.Tests.csprojAssemblyReference.cache
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\obj\Debug\netcoreapp3.1\Dotz.Tests.AssemblyInfoInputs.cache
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\obj\Debug\netcoreapp3.1\Dotz.Tests.AssemblyInfo.cs
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\obj\Debug\netcoreapp3.1\Dotz.Tests.csproj.CoreCompileInputs.cache
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\obj\Debug\netcoreapp3.1\Dotz.Tests.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Tests\obj\Debug\netcoreapp3.1\Dotz.Tests.pdb

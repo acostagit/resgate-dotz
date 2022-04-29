@@ -1,0 +1,16 @@
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Dotz.Produto.Domain.Tests.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Dotz.Produto.Domain.Tests.pdb
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\obj\Debug\Dotz.Produto.Domain.Tests.csprojAssemblyReference.cache
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\obj\Debug\Dotz.Produto.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\obj\Debug\Dotz.Produto.Domain.Tests.csproj.CopyComplete
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\obj\Debug\Dotz.Produto.Domain.Tests.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\obj\Debug\Dotz.Produto.Domain.Tests.pdb
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Dotz.Produto.Domain.dll
+C:\Projetos\Dotz\Dotz.UI\Dotz.Produto.Domain.Tests\bin\Debug\Dotz.Produto.Domain.pdb

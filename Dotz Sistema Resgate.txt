@@ -1,0 +1,239 @@
+Arquitetura de Softwre - DDD
+Sistema de Premios: Resgate de Pontos 
+Banco de dados: ResgateContext
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+Camadas
+0. UI
+  Angular| MVC Controller| Mobile| Desktop
+  Web API REST
+ 
+1. ApplicationServices
+	
+
+2. Domain
+	Domain Services
+	Domain Model
+
+3. Infrastructure
+	Repository
+	
+	
+Chama.WebApp.MVC
+-------------------------------
+Projeto: DotzPremios
+
+UI:
+	Dotz.UI.MVC
+
+API:
+	Dotz.Cliente.API
+	Dotz.Endereco.API
+	Dotz.Usuario.API
+	Dotz.Produto.API
+	Dotz.Pedido.API
+	Dotz.PedidoItem.API
+	Dotz.Empresa.API
+	Dotz.Categoria.API
+	Dotz.SubCategoria.API
+	Dotz.Pontos.API ???
+	Dotz.Moeda.API
+	Dotz.Conta.API
+	Dotz.Programa.API
+	
+Domain:
+	Dotz.Programa.Domain
+		Id, IdentificacaoCliente(EmailCliente), Programa, DataCadastro
+	Dotz.Cliente.Domain (Usuario)
+		ID, Nome, CPF, Endereco, Email
+	Dotz.Endereco.Domain, EnderecoEntrega.Domain
+		Id, Descricao, Cidade, UF
+	Dotz.Conta.Domain
+		ID, ClienteId, ProdutoId, DataCompra, Pontos, Empresa????
+		
+	Dotz.Categoria.Domain
+		Id, Nome, SubCategoria
+	Dotz.SubCategoria.Domain
+		Id, Nome, id_categoria
+	Dotz.Produto.Domain
+		Id, Nome, Id_Sub_Categoria	
+	Dtoz.Produtos_Em_Estoque.Domain
+		Id, Qtde_Estoque, PontuacaoMinima
+	
+	Dotz.Pedido.Domain
+		Id, IdProduto, IdCliente, Data, Status, ver se necessario ===> List<PedidoItem>
+	
+	Dotz.PedidoItem.Domain
+		Id, PedidoId, 
+	
+	
+	Dotz.Status
+		1: Abderto
+		2:Entrega
+		3: Pendente
+	
+Infrastructure: Dotz.Infra.Data
+	Dotz.Cliente.Infra
+
+Banco de dados: MySQL
+user name: root
+PWS: mysql
+WSN: MySQL80
+
+
+Estórias
+User Stories - Cenários
+Como um vendedor, Eu quero vender produtos, Para obter pontos para trocar por moedas.
+
+Cenario1: Operacao da certo.
+
+Palavras-chave:
+DADO QUE....contexto especifico
+E ....mis detlahes
+QUANDO o usuario realizar tal ação.
+ENTAO alguma coisa acontecerá
+
+
+Cenario real:
+CENARIO1: Colocar produto no carrinho.
+DADO QUE o produtoABC é exibido no carrinho.
+E possui estoque maior que 0.
+E usuario seleciona uma quantidade igual ou inferior a quantidade em estoque.
+QUANDO o usuario clicar  adicionar o item  no carrinho.
+ENTAO o usuario será redirecionado ao resumo do carrinho.
+E visualiza todos os itens do carrinho.
+
+CENARIO2:  Colocar um item indisponivel no carrinho.
+
+NO BDD:
+
+Funcionalidade: Acicionar item no carrinho
+	Como um cliente 
+	Eu quero colocar um produto no carrinho
+	Para eu comprá-lo posteriormente.
+
+CENÁRIO: Colocar um item no carrinho
+
+
+CENARIO: Colocar um item indisponivel no carrinho
+
+
+SpecFlow: Escrever arquivo.feature para cada funcionalidade. 
+PAra cada funcionalidade, escrever os cenarios.
+ 
+DADO QUE, E, E ==>  	Arrange
+
+QUANDO ==> Act
+
+ENTAO, E ==> Assert
+
+	
+
+-------------------
+Testes Unitarios
+ObjetoEmTeste_MetodoComportamentoEmTeste_ComportamenetoEsperado()
+	Ex.: Pedido_AdicionarPedidoItem_DeveIncrementarUnidadesSeItemJaExiste()
+
+MetodoEmTeste_EstadoEmTeste_ComportamentoEsperado()
+Ex.: AcicionarPedidoItem_ItemExistenteCarrinho_DeveIncrementarUnidadesItem()
+	 RetirarItemEstoque_EstoqueAbaixo100Unidades_DeveEnviarEmailAviso()
+
+
+
+Mock: Objetos Mock, simulados, que simulam comportamentos de objetos reais de forma controlada.
+Falso, Simulado
+
+Para testar o comportamento de outros objetos. Simulam o comporamento de uma classe  ou objeto  real para que possamos focar o teste na unidade a ser testaada.
+
+Vantagem: 
+	eh criado dinamicamente atraves de framework de Mock e poupa o desenvolvedor de criar a classe fisica.
+	
+Uma classe fisica que simula o objeto  chama-se Fake, mas na teoria eh um Mock, a diferenca foi criado manualmenteo.
+
+
+Moq = framework de Mock. Compativel com VS.
+Install-Package Moq
+
+
+_________________________________________________________
+User Stories - Funcionalidades: 
+1. Cadastrar usuario
+Como um usuario, Eu quero cadastrar um usuario no sistema, Para registro no banco de dados.
+
+Cenario1:
+Dado que o usuario esteja com os dados preenchidos corretamente.
+E esses dados foram validados com sucesso.
+Quando o usuario clicar no botao Salvar.
+Entao o objeto Usuario será salvo no banco de dados.
+
+2. Autenticacao de usuario via JWT
+
+
+3. Cadastro de endereco de Entrega do Usuario.
+Como um cliente, Eu quero cadastrar um Endereco de Entrega do usuario no sistema, Para registro no banco de dados.
+
+Cenario1: 
+Dado que o Usuario ja esteja cadastrado no sistema.
+E o sistema faz uma consulta para checar o usuario.
+E os dados de Endereco de Entrega foram preenchidos.
+E validados com sucesso.
+Quando o usuario clicar no botao Salvar.
+Entao o sistema salva o objeto EnderecoEntrega no banco de dados.
+
+4. Consulta de Saldo do Pontos e Extrato do Usuario.
+Como cliente, Eu quero realizar uma consulta do Saldo de Pontos e Extrato.
+
+Cenario1:
+	Dado que o Usuario exista no banco de dados.
+	E tenha Saldo de Pontos e Extrato.
+	Quando o usuario clicar no botao Consultar.
+	Entao exibir o Saldo de Pontos e Extrato do Usuario.
+
+5. Listagem de Produtos disponiveis para resgate.
+Como usuario, Eu quero listar todos os produtos, para exibicao na tela.
+
+Cenario1:
+	Dado que o usuario esteja logado com permissao no sistema.
+	E exista produtos disponiveis para resgate, cadastrados no banco de dados.
+	Quando o usuario clicar no botao Consultar.
+	Entao listar todos os produtos disponiveis para resgate na tela.
+
+6. Resgate de Produtos
+Como usuario, Eu quero resgatar os pontos acumulados, Para troca por produtos.
+
+Cenario1:
+	Dado que o usuario possua pontos acumulados.
+	E ele poderá trocar por produtos no site da empresa.
+	Quando o usuario selecionar os produtos na vitrine do sistema 
+	E clicar no botao resgatar.
+	Entao o sistema valida os pontos e realiza o resgate dos produtos.
+	
+7. Listagem de Pedidos (com status de entrega.
+	Como usuario, Eu quero consultar todos os pedidos com status de entrega, Para listagem na tela.
+	
+Cenario1:
+	Dado que usuario esteja logado no sistema.
+	E tenha permissão para listar pedidos.
+	E selecionar os pedidos com status de entrega.
+	Quando o usuario clicar no botao Consultar.
+	Entao o sistema exibira uma listagem de produtos com status de entrega.
+	
+	
+
+Tarefas:
+** Criar JWT
+1. Criar o projeto no VS, ok
+	1.2. Criar as camadas, ok
+	1.3. Gerar as APIs, ok
+	1.4. Gerar Swagger, nao
+2. Criar o Banco de dados no MySQL, ok
+	2.1. Criar as Tabelas e Relacionamentos, FluentApi
+3. Criar Docker, ok, mas so a chamada
+4.Criar arquivo no Postman com as funcionalidades, estudar
+5. Publicar no Docker, nn e GitHub ok
+6. Configurar IoC, ok
+7. Testes Unitarios, ok
+
+--------------------------------
+Nasa Dev

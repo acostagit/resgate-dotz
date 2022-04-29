@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dotz.Tests/1.0.0": {
+        "runtime": {
+          "Dotz.Tests.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dotz.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

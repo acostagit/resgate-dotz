@@ -1,0 +1,16 @@
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Infra.IoC.deps.json
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Infra.IoC.dll
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Infra.IoC.pdb
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Application.dll
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Domain.dll
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Infra.Data.dll
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Application.pdb
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Infra.Data.pdb
+C:\Projetos\Dotz\Dotz.Infra.IoC\bin\Debug\netcoreapp3.1\Dotz.Domain.pdb
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.csprojAssemblyReference.cache
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.AssemblyInfoInputs.cache
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.AssemblyInfo.cs
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.csproj.CopyComplete
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.dll
+C:\Projetos\Dotz\Dotz.Infra.IoC\obj\Debug\netcoreapp3.1\Dotz.Infra.IoC.pdb
